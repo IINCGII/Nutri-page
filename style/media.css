@@ -73,3 +73,12 @@
         white-space: normal;
     }
 }
+
+
+@media (max-width: 600px) {
+    /* Estilos para telas pequenas, como celulares */
+    .box{
+        largura: 100%;
+        padding: 10px;
+    }
+}
