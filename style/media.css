@@ -34,8 +34,8 @@
     }
     
     .box{
-        height: 555px;
-        width: 500px;
+        height: 525px;
+        width: 480px;
         margin-left: 5px;
     }
      
@@ -74,11 +74,3 @@
     }
 }
 
-
-@media (max-width: 600px) {
-    /* Estilos para telas pequenas, como celulares */
-    .box{
-        largura: 100%;
-        padding: 10px;
-    }
-}
