@@ -1,0 +1,145 @@
+
+
+*{
+    margin: 0;
+    border: 0 auto;
+    box-sizing: border-box;
+}
+html{
+    min-height: 100%;
+    background-image: url(../img/8735a3_109e8a0219de4079a440a4609b02787f~mv2.jpeg);
+    background-size: auto;
+    background-size: cover;
+}
+
+body{
+    width: 100%;
+    color: black;
+    padding: 15px;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+
+
+.logo,a{
+    border: 2px solid;
+    color: black;
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    width: 90px;
+    height: 90px;
+    flex-direction: column;
+    line-height: 10px;
+    padding: 20px;
+    border-radius: 200px;
+    padding: 20px;
+    color: white;
+    background-color: rgb(240, 154, 43);
+    border-color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    margin-left: 55px;
+}
+
+a:hover{
+    color: white;
+    background-color: rgb(240, 154, 43);
+    border-color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+li{
+    display: inline-block;
+    margin: 2px;
+}
+
+a{
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 30px;
+    margin-right: 55px;
+    margin: 25px;
+}
+
+h2{
+     font-size: 70px;
+     padding:15px;
+     line-height:15px;
+     margin-top: 15px;
+     padding-left: 30px;
+}
+
+.box{
+    margin-top: 5px;
+    margin-bottom: 40px;
+    background-color: rgba(194, 194, 194, 0.5);
+    width: 650px;
+    height: 510px;
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+}
+
+p{
+    line-height: 20px;
+    max-height: 500px;
+    font-size: 30px;
+}
+h2,p{
+    margin-top: 15px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+p,form{
+    margin-right: 55px;
+    margin: 25px;
+}
+
+span{
+    color: rgb(240, 154, 43);
+    padding: 10px;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(240, 154, 43);
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    color: white;
+    background-color: orange;
+}
+
+input{
+    margin-top: 20px;
+    height: 60px;
+    width: 550px;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    font-size: 20px;
+}
+
